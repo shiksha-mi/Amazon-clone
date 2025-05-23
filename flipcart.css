@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+    background-color: white;
+    color: #2874f0;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    height: 300px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #172337;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
